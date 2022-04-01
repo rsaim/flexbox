@@ -102,3 +102,20 @@ a.button {
 /*
   Overall Layout
 */
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    overflow-y: scroll;
+}
+
+.icon-bar {
+    display: flex;
+}
