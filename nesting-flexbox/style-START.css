@@ -38,6 +38,36 @@ a:hover {
 .slider-nav ul {
   list-style: none;
   margin: 0;
-  padding: 0; 
+  padding: 0;
+  display:flex;
+  /* align-items: center; */
+  /* justify-content: stretch; */
 }
+
+.slider-nav ul li {
+    border: 1px solid red;
+    display: flex;
+    flex:3;
+}
+
+.slider-nav ul li.arrow {
+    /* display: flex; not required */
+    flex:1;
+    border: 1px solid blue;
+}
+
+.slider-nav ul li a {
+    flex-basis: 100%; /*strecthes a across width of li horizontally*/
+    display: flex;
+    align-items: center; /*Aligns text in span in center vertically*/
+}
+
+.slider-nav li a span {
+    /* flex-basis: 100%; */
+    /* display: block; */
+    flex:1; /*Aligns text in center horizontally*/
+    text-align: center; /* Aligns text in center horizontally */
+}
+
+
 
